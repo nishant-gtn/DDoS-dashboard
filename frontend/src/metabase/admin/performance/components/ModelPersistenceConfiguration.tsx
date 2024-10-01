@@ -150,7 +150,7 @@ export const ModelPersistenceConfiguration = () => {
             '{0} is either "Metabase" or the customized name of the application.',
           )
             .t`This will create a table for each of your models in a dedicated schema. GKavach will refresh them on a schedule. Questions and queries that use your models will query these tables.`}
-          {showMetabaseLinks && (
+          {/* {showMetabaseLinks && (
             <>
               {" "}
               <ExternalLink
@@ -158,7 +158,7 @@ export const ModelPersistenceConfiguration = () => {
                 href={docsUrl}
               >{t`Learn more`}</ExternalLink>
             </>
-          )}
+          )} */}
         </p>
         <DelayedLoadingAndErrorWrapper
           error={null}

@@ -57,7 +57,7 @@ const SlackForm = ({
           name="slack-files-channel"
           title={t`Public channel to store image files`}
           description={isReadOnly ? SLACK_CHANNEL_DESCRIPTION : undefined}
-          placeholder="metabase_files"
+          placeholder="gkavach_files"
           readOnly={isReadOnly}
         />
         {!isReadOnly && (

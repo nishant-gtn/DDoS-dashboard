@@ -55,7 +55,7 @@ function DataModelApp({
     { name: t`Data`, value: TAB.DATABASE },
     ...(isAdmin ? [{ name: t`Segments`, value: TAB.SEGMENTS }] : []),
   ];
-
+  
   return (
     <Fragment>
       <NavBar>
@@ -65,9 +65,9 @@ function DataModelApp({
           onChange={onChangeTab}
           variant="underlined"
         />
-        <ModelEducationButton
+        {/* <ModelEducationButton
           onClick={showModelEducationalModal}
-        >{t`Simplify your schema with Models`}</ModelEducationButton>
+        >{t`Simplify your schema with Models`}</ModelEducationButton> */}
       </NavBar>
       <ModelEducationalModal
         isOpen={isModelEducationalModalShown}

@@ -136,7 +136,7 @@
   {:name         "let-user-control-scheduling"
    :type         :boolean
    :display-name (deferred-tru "Choose when syncs and scans happen")
-   :description  (deferred-tru "By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes.")
+   :description  (deferred-tru "By default, GKavach does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes.")
    :visible-if   {"advanced-options" true}})
 
 (def metadata-sync-schedule
@@ -179,7 +179,7 @@
    :type         :boolean
    :display-name (deferred-tru "Periodically refingerprint tables")
    :description  (deferred-tru
-                  (str "This enables Metabase to scan for additional field values during syncs allowing smarter "
+                  (str "This enables GKavach to scan for additional field values during syncs allowing smarter "
                        "behavior, like improved auto-binning on your bar charts."))
    :visible-if   {"advanced-options" true}})
 

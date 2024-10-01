@@ -25,7 +25,7 @@ import { BccToggleWidget } from "./components/Email/BccToggleWidget";
 import { SettingsEmailForm } from "./components/Email/SettingsEmailForm";
 // import SettingsLicense from "./components/SettingsLicense";
 // import SettingsUpdatesForm from "./components/SettingsUpdatesForm/SettingsUpdatesForm";
-import { UploadSettings } from "./components/UploadSettings";
+// import { UploadSettings } from "./components/UploadSettings";
 import CustomGeoJSONWidget from "./components/widgets/CustomGeoJSONWidget";
 import {
   InteractiveEmbeddingOptionCard,
@@ -379,17 +379,17 @@ export const ADMIN_SETTINGS_SECTIONS = {
       },
     ],
   },
-  uploads: {
-    name: t`Uploads`,
-    order: 85,
-    adminOnly: false,
-    component: UploadSettings,
-    settings: [
-      {
-        key: "uploads-settings",
-      },
-    ],
-  },
+  // uploads: {
+  //   name: t`Uploads`,
+  //   order: 85,
+  //   adminOnly: false,
+  //   component: UploadSettings,
+  //   settings: [
+  //     {
+  //       key: "uploads-settings",
+  //     },
+  //   ],
+  // },
 
   // "public-sharing": {
   //   name: t`Public Sharing`,

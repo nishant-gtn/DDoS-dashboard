@@ -144,8 +144,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -155,13 +154,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."

@@ -49,7 +49,7 @@ const SlackStatus = ({
     <StatusRoot>
       <StatusHeader>
         <StatusPrimary>
-          <StatusTitle>{t`Metabase on Slack`}</StatusTitle>
+          <StatusTitle>{t`GKavach on Slack`}</StatusTitle>
           <StatusMessage>
             <SlackBadge isValid={isValid} />{" "}
             {!isValid && (

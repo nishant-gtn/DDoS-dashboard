@@ -6,10 +6,12 @@ import CS from "metabase/css/core/index.css";
 
 import { SetupFooterRoot } from "./SetupHelp.styled";
 
-export const SetupHelp = (): JSX.Element => {
+export const SetupHelp = (): any => {
   const { url: docsUrl } = useDocsUrl(
     "configuring-metabase/setting-up-metabase",
   );
+  return '';
+
   return (
     <SetupFooterRoot>
       {t`If you feel stuck`},{" "}

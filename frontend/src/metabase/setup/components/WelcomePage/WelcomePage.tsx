@@ -38,8 +38,8 @@ export const WelcomePage = (): JSX.Element | null => {
   return (
     <PageRoot data-testid="welcome-page">
       <PageMain>
-        <LogoIcon height={118} />
-        <PageTitle>{t`Welcome to Metabase`}</PageTitle>
+      <img src="/app/assets/img/gkavach-green-logo.png" width={115} />
+      <PageTitle>{t`Welcome`}</PageTitle>
         <PageBody>
           {t`Looks like everything is working.`}{" "}
           {t`Now let’s get to know you, connect to your data, and start finding you some answers!`}

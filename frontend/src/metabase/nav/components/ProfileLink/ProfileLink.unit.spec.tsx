@@ -15,12 +15,17 @@ import {
   createMockAdminState,
 } from "metabase-types/store/mocks";
 
-const REGULAR_ITEMS = [
+const REGULAR_ITEMS_OLD = [
   "Account settings",
   "Help",
   "About Metabase",
   "Sign out",
 ];
+const REGULAR_ITEMS = [
+  "Account settings",
+  "Sign out",
+];
+
 const ADMIN_ITEMS = [...REGULAR_ITEMS, "Admin settings"];
 const HOSTED_ITEMS = [...ADMIN_ITEMS];
 
@@ -183,7 +188,7 @@ describe("ProfileLink", () => {
           expect(link).toBeInTheDocument();
           expect(link).toHaveProperty(
             "href",
-            "https://www.metabase.com/help?utm_source=in-product&utm_medium=menu&utm_campaign=help&instance_version=v1",
+            "https://www.gtn.com.np",
           );
         });
       });

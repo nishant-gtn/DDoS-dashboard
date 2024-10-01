@@ -621,7 +621,7 @@ describeEE("formatting > whitelabel", () => {
 
       helpLink()
         .should("have.attr", "href")
-        .and("include", "https://www.metabase.com/help-premium?");
+        .and("include", "https://www.gtn.com.np");
 
       cy.signInAsNormalUser();
       cy.visit("/");
@@ -629,7 +629,7 @@ describeEE("formatting > whitelabel", () => {
 
       helpLink()
         .should("have.attr", "href")
-        .and("include", "https://www.metabase.com/help?");
+        .and("include", "https://www.gtn.com.np");
     });
 
     it("should link to metabase help when the whitelabel feature is disabled (eg OSS)", () => {
@@ -641,7 +641,7 @@ describeEE("formatting > whitelabel", () => {
 
       helpLink()
         .should("have.attr", "href")
-        .and("include", "https://www.metabase.com/help?");
+        .and("include", "https://www.gtn.com.np");
     });
 
     it("it should validate the url", () => {

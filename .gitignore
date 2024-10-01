@@ -116,3 +116,9 @@ modules/drivers/*/.lsp/*
 
 # swc
 .swc/
+
+Cache/
+CachedData/
+GPUCache/
+Local Storage/
+User/
